@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Cruno.Application.Shared", "src\Moongazing.Cruno.Application.Shared\Moongazing.Cruno.Application.Shared.csproj", "{07F8737E-A838-4924-9F76-AB5F56DA160A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{4D573584-5064-41AB-B8AE-8ACB9429A28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D573584-5064-41AB-B8AE-8ACB9429A28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D573584-5064-41AB-B8AE-8ACB9429A28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F8737E-A838-4924-9F76-AB5F56DA160A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F8737E-A838-4924-9F76-AB5F56DA160A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F8737E-A838-4924-9F76-AB5F56DA160A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F8737E-A838-4924-9F76-AB5F56DA160A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 		{EC447DCF-ABFA-6E24-52A5-D7FD48A5C558} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{22FEDC8D-5646-4DAB-A4B2-5358887A06AC} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{4D573584-5064-41AB-B8AE-8ACB9429A28F} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{07F8737E-A838-4924-9F76-AB5F56DA160A} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F4870C1-CC99-4697-A2DC-7AA8AD06490D}
