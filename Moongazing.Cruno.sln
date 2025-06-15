@@ -9,14 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{EC44
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Cruno.BuildingBlocks", "src\Moongazing.Cruno.BuildingBlocks\Moongazing.Cruno.BuildingBlocks.csproj", "{22FEDC8D-5646-4DAB-A4B2-5358887A06AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Cruno.WorkerService", "src\Moongazing.Cruno.WorkerService\Moongazing.Cruno.WorkerService.csproj", "{4D573584-5064-41AB-B8AE-8ACB9429A28F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{089100B1-113F-4E66-888A-E83F3999EAFD}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Cruno.Application.Shared", "src\Moongazing.Cruno.Application.Shared\Moongazing.Cruno.Application.Shared.csproj", "{07F8737E-A838-4924-9F76-AB5F56DA160A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.Cruno.Infrastructure", "src\Moongazing.Cruno.Infrastructure\Moongazing.Cruno.Infrastructure.csproj", "{D99B98FE-BB12-41D4-94AF-C7339174E8F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,14 +28,14 @@ Global
 		{22FEDC8D-5646-4DAB-A4B2-5358887A06AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22FEDC8D-5646-4DAB-A4B2-5358887A06AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22FEDC8D-5646-4DAB-A4B2-5358887A06AC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4D573584-5064-41AB-B8AE-8ACB9429A28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D573584-5064-41AB-B8AE-8ACB9429A28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D573584-5064-41AB-B8AE-8ACB9429A28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D573584-5064-41AB-B8AE-8ACB9429A28F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{07F8737E-A838-4924-9F76-AB5F56DA160A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07F8737E-A838-4924-9F76-AB5F56DA160A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07F8737E-A838-4924-9F76-AB5F56DA160A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07F8737E-A838-4924-9F76-AB5F56DA160A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99B98FE-BB12-41D4-94AF-C7339174E8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99B98FE-BB12-41D4-94AF-C7339174E8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99B98FE-BB12-41D4-94AF-C7339174E8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99B98FE-BB12-41D4-94AF-C7339174E8F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,8 +43,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EC447DCF-ABFA-6E24-52A5-D7FD48A5C558} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{22FEDC8D-5646-4DAB-A4B2-5358887A06AC} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
-		{4D573584-5064-41AB-B8AE-8ACB9429A28F} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{07F8737E-A838-4924-9F76-AB5F56DA160A} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{D99B98FE-BB12-41D4-94AF-C7339174E8F7} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F4870C1-CC99-4697-A2DC-7AA8AD06490D}
