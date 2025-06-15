@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Moongazing.Cruno.Application.Shared\Moongazing.Cruno.Application.Shared.csproj" />
+    <ProjectReference Include="..\Moongazing.Cruno.Modules.Jobs.Domain\Moongazing.Cruno.Modules.Jobs.Domain.csproj" />
+    <ProjectReference Include="..\Moongazing.Cruno.Modules.Jobs.Infrastructure\Moongazing.Cruno.Modules.Jobs.Infrastructure.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.3.0" />
+  </ItemGroup>
+
+</Project>

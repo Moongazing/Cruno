@@ -1,4 +1,4 @@
-﻿namespace Cruno.BuildingBlocks.Domain.Common;
+﻿namespace Moongazing.Cruno.BuildingBlocks.Domain.Common;
 
 public abstract class ValueObject
 {
